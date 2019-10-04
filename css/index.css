@@ -188,7 +188,7 @@ p {
 }
 
 .middle-content .boxes .box {
-	width: 12.5%;
+	width: 100px;
 	height: 100px;
 	background: black;
 	margin: 20px 2.5%;
