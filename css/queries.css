@@ -58,6 +58,10 @@
 	.feature-container {
 		width: 80%;
 	}
+
+	.bottom-content .text-container:last-child {
+		padding: 30px;
+	}
 }
 
 /* 480 */
