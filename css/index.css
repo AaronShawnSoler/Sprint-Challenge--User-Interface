@@ -311,3 +311,50 @@ a {
 .boxes .box:nth-child(10) {
 	background-color: dodgerblue;
 }
+
+/* about page */
+
+.about-page .text-container {
+	width: 98%;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.features {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+	padding: 10px 0;
+}
+
+.feature-container {
+	width: 46%;
+	padding-bottom: 32px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 64px;
+}
+
+.feature-container:nth-child(3),
+.feature-container:nth-child(4) {
+	margin-bottom: 0;
+}
+
+.feature-container img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.feature-container p {
+	padding-bottom: 32px;
+}
+
+.feature-container a {
+	padding: 5px 25px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.bottom-section {
+	margin: 40px 0;
+}
