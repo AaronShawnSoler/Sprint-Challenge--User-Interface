@@ -249,6 +249,11 @@ li,
 a {
 	text-decoration: none;
 	color: black;
+	transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+	color: #ddd;
 }
 
 .nav-links {
@@ -271,6 +276,14 @@ a {
 }
 
 /* boxes */
+
+.box {
+	transition: all 0.6s ease-in-out;
+}
+
+.box:hover {
+	transform: rotate(360deg);
+}
 
 .boxes .box:nth-child(1) {
 	background-color: teal;
@@ -353,6 +366,13 @@ a {
 	padding: 5px 25px;
 	border: 2px solid black;
 	border-radius: 10px;
+	transition: all 0.2s ease-in-out;
+	display: inline-block;
+}
+
+.feature-container a:hover {
+	transform: scale(1.1);
+	background: #eee;
 }
 
 .bottom-section {
